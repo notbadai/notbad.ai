@@ -7,16 +7,23 @@ body {
     padding: 0 32px;
 }
 
-@media only screen and (max-width: 300px) {
-    h1.logo {
-        font-size: 32px;
-    }
-}
-
 h1.logo {
     text-align: center;
     padding: 256px 0;
     font-size: 64px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1.logo {
+        padding: 128px 0;
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    h1.logo {
+        padding: 96px 0;
+    }
 }
 
 h2 {
