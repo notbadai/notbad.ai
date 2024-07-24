@@ -39,7 +39,7 @@ h2 {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ccc;
 }
 
@@ -49,4 +49,14 @@ footer {
     padding-top: 32px;
     margin-top: 64px;
     margin-bottom: 32px;
+}
+
+footer a.row-item {
+    margin: 0 10px;
+    color: #bbb;
+    font-size: .9rem;
+}
+
+a:hover {
+    text-decoration: underline;
 }
