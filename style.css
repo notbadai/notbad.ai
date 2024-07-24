@@ -7,6 +7,12 @@ body {
     padding: 0 32px;
 }
 
+@media only screen and (max-width: 300px) {
+    h1.logo {
+        font-size: 32px;
+    }
+}
+
 h1.logo {
     text-align: center;
     padding: 256px 0;
@@ -23,8 +29,8 @@ a {
 }
 
 footer {
-    border-top:1px solid #333;
+    border-top: 1px solid #333;
     text-align: center;
-    padding-top:32px;
-    margin-top:64px;
+    padding-top: 32px;
+    margin-top: 64px;
 }
