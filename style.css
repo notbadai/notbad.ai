@@ -1,0 +1,30 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    font-family: "DM Sans", -apple-system, "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #111;
+    color: #ccc;
+    padding: 0 32px;
+}
+
+h1.logo {
+    text-align: center;
+    padding: 256px 0;
+    font-size: 64px;
+}
+
+h2 {
+    color: #ccc;
+}
+
+a {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+footer {
+    border-top:1px solid #333;
+    text-align: center;
+    padding-top:32px;
+    margin-top:64px;
+}
