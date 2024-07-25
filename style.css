@@ -8,10 +8,13 @@ body {
     line-height: 1.6;
 }
 
-h1.logo {
+img.logo {
     text-align: center;
     font-size: 4rem;
     /*color: #888;*/
+    width: 400px;
+    margin: 10px auto;
+    display: block;
 }
 
 h2.subtext {
@@ -23,13 +26,7 @@ h2.subtext {
 }
 
 header {
-    padding: 256px 0;
-}
-
-h1.logo>span.logo-dot {
-}
-
-h1.logo>span.logo-ai {
+    padding: 256px 0 128px 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -40,12 +37,12 @@ h1.logo>span.logo-ai {
 }
 
 @media only screen and (max-width: 480px) {
-    h1.logo {
-        font-size: 2rem;
+    img.logo {
+        width: 80%;
     }
 
     header {
-        padding: 128px 0;
+        padding: 128px 0 64px 0;
     }
 
     h2.subtext {
@@ -55,8 +52,8 @@ h1.logo>span.logo-ai {
 }
 
 @media only screen and (max-height: 480px) {
-    h1.logo {
-        padding: 96px 0;
+    header {
+        padding: 96px 0 48px 0;
     }
 }
 
