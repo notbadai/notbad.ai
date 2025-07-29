@@ -83,3 +83,8 @@ footer a.row-item {
 a:hover {
     text-decoration: underline;
 }
+
+h2 {
+    margin-top: 64px;
+    margin-bottom: 8px;
+}
